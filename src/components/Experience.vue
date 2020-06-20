@@ -41,5 +41,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+    #experience{
+        background:$bg-secondary;
+    }
 </style>
