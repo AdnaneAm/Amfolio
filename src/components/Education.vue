@@ -6,21 +6,21 @@
             Education AND VOLUNTEER EXPERIENCE
         </h1>
         <ul>
-          <li class="education-item">
+          <li class="section-item">
             <span class="edu-date">2010-2011</span>
             <div class="edu-school">
               <span>Primary School</span>
               <span>Salman El Farissi</span>
             </div>
           </li>
-          <li class="education-item">
+          <li class="section-item">
             <span class="edu-date">2011-2014</span>
             <div class="edu-school"> 
               <span>Secondary School</span>
               <span>El Akkad</span>
             </div>
           </li>
-          <li class="education-item">
+          <li class="section-item">
             <span class="edu-date">2014-2017</span>
             <div class="edu-school"> 
               <span>High School</span>
@@ -71,9 +71,9 @@
                 </svg>
               </div>
               <div class="box-content">
-                <h2>Graphic Designer</h2>
-                <h3>Computer Sciences Club - FORUM ENSAT ENTREPRISES - IT DAY</h3>
-                <h4>ENSA DE TANGER</h4>
+                <h2>MCPC Contestant</h2>
+                <h3>Participated in MCPC Contest after being qualified locally in my school</h3>
+                <h4>UIR DE RABAT</h4>
               </div>
           </div>
       </div>
@@ -85,8 +85,8 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-#education {
+<style lang="scss">
+#education,#experience {
     position:relative;
     .container{
         align-content: flex-start;
@@ -115,10 +115,10 @@ export default {};
             margin-bottom: .8rem; 
         }
         ul{
-            .education-item{
+            .section-item{
                 margin: 2.5rem 0;
                 display: flex;
-                .edu-date{
+                >span:first-child{
                     position: relative;
                     margin:0 5rem;
                     color:$txt-primary;
@@ -136,7 +136,7 @@ export default {};
                             border:5px solid lighten($primary,25%);
                     }
                 }
-                .edu-school{
+                div{
                     text-align:left;
                     flex:1;
                     font-size:1.2rem;
@@ -198,6 +198,14 @@ export default {};
                     color:$txt-secondary;
                     font-size:1.1rem;
                     margin-top:.3rem;
+                    font-weight:500;
+                }
+                h4{
+                    font-weight:600;
+                    margin-top:.2rem;
+                    font-size:1rem;
+                    color:lighten($txt-primary,20%);
+                    text-transform: uppercase;
                 }
             }
         }

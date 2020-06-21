@@ -13,6 +13,7 @@
   </svg>
   <svg
     v-else-if="type == 'concave'"
+    style="position: relative;top: 7px;"
     id="curveUpColor"
     xmlns="http://www.w3.org/2000/svg"
     version="1.1"

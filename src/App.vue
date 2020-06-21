@@ -6,6 +6,7 @@
     <Education />
     <Divider type="concave" />
     <Experience />
+    <Divider type="convex" />
     <Projects />
     <Contact />
   </div>
