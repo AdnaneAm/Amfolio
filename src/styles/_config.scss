@@ -33,10 +33,13 @@ li{
     list-style:none;
 }
 
-// Global classes
+// Global classes and styles
 .container{
     margin:0 10rem !important;
     display: flex;
+}
+section{
+    padding:4rem 0;
 }
 
 // Mixins 

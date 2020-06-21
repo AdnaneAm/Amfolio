@@ -2,9 +2,9 @@
   <div id="app">
     <Navbar />
     <Hero />
-    <Divider type="convex"/>
+    <Divider type="convex" />
     <Education />
-      <Divider type="concave"/>
+    <Divider type="concave" />
     <Experience />
     <Projects />
     <Contact />
@@ -20,19 +20,24 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Divider from "@/components/Divider";
 
-
 export default {
   name: "Amfolio",
   components: {
-    Navbar,Hero,Education,Experience,Projects,Contact,Divider
+    Navbar,
+    Hero,
+    Education,
+    Experience,
+    Projects,
+    Contact,
+    Divider
   }
 };
 </script>
 
 <style lang="scss">
-  body{
-    padding:0;
-    margin:0;
-    overflow-x:hidden;
-  }
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
 </style>
