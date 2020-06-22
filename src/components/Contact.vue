@@ -1,6 +1,8 @@
 <template>
   <section id="contact">
-    Contact
+    <div class="container">
+      <h1 class="section-heading">Contact</h1>
+    </div>
   </section>
 </template>
 
@@ -8,4 +10,8 @@
 export default {};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+  #contact{
+    background:$bg-secondary;
+  }
+</style>

@@ -8,6 +8,7 @@
     <Experience />
     <Divider type="convex" />
     <Projects />
+    <Divider type="concave" />
     <Contact />
   </div>
 </template>

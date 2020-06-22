@@ -107,13 +107,6 @@ export default {};
             z-index: -1;
             margin-top: 2.5rem;
         }
-        .section-heading{
-            color: #3597db;
-            font-size: 1.6rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: .8rem; 
-        }
         ul{
             .section-item{
                 margin: 2.5rem 0;
