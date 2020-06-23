@@ -2,7 +2,6 @@
   <div id="app">
     <Navbar />
     <Hero />
-    <Divider type="convex" />
     <Education />
     <Divider type="concave" />
     <Experience />
