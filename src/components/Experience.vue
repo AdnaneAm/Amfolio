@@ -28,7 +28,7 @@
           </li>
         </ul>
       </div>
-      </div>
+    </div>
   </section>
 </template>
 
@@ -39,25 +39,25 @@ export default {};
 <style lang="scss" scoped>
 #experience {
   background: $bg-secondary;
-  .section-left-content{
-    margin-right:0;
+  .section-left-content {
+    margin-right: 0;
   }
-  .section-right-content{
-    margin-right:6rem;
-    background-image: url('https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
+  .section-right-content {
+    margin-right: 6rem;
+    background-image: url("https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
     position: relative;
     z-index: 1;
-    border-radius:1rem;
-    border:20px solid darken($bg-secondary,2%);
-    &::after{
-      content:'';
-      width:100px;
-      height:100px;
-      background:$primary;
-      border:none;
-      z-index:-10;
+    border-radius: 1rem;
+    border: 20px solid darken($bg-secondary, 2%);
+    &::after {
+      content: "";
+      width: 100px;
+      height: 100px;
+      background: $primary;
+      border: none;
+      z-index: -10;
       position: relative;
-      top:-100px
+      top: -100px;
     }
   }
 }

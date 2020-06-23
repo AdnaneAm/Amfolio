@@ -3,11 +3,10 @@
     <div class="container">
       <div class="hero-text">
         <h2>Hello, I'm</h2>
-        <h1>AMEZIANE <br>Adnane</h1>
+        <h1>AMEZIANE <br />Adnane</h1>
         <h2>Full Stack Web Developer</h2>
       </div>
-      <div class="hero-img">
-      </div>
+      <div class="hero-img"></div>
     </div>
   </section>
 </template>
@@ -30,9 +29,9 @@ export default {};
     h1 {
       font-family: serif;
       font-size: 4rem;
-      line-height:4rem;
+      line-height: 4rem;
       font-weight: 800;
-      margin:.5rem 0 2rem 0;
+      margin: 0.5rem 0 2rem 0;
       &:after {
         content: ".";
         color: $primary;
@@ -40,25 +39,25 @@ export default {};
         margin-left: 0.5rem;
       }
     }
-    h2:first-child{
-        font-size: 1.7rem;
-        margin-left: 0.4rem;
-        font-weight: 400;
-        color: #9fb1bd;
+    h2:first-child {
+      font-size: 1.7rem;
+      margin-left: 0.4rem;
+      font-weight: 400;
+      color: #9fb1bd;
     }
-    h2:last-child{
-        font-size:1.5rem;
-        color:#000;
-        position:relative;
-        &::after{
-            content:'';
-            width:50px;
-            height:4px;
-            background:$primary;
-            position:absolute;
-            left:0;
-            bottom:-5px;
-        }
+    h2:last-child {
+      font-size: 1.5rem;
+      color: #000;
+      position: relative;
+      &::after {
+        content: "";
+        width: 50px;
+        height: 4px;
+        background: $primary;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+      }
     }
   }
   .hero-img {

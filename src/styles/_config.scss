@@ -48,6 +48,20 @@ section{
     text-transform: uppercase;
     margin-bottom: .8rem; 
 }
+.section-left-content{
+    position:relative;
+    z-index: 1;
+    overflow:hidden;
+    flex:1;
+    margin-right:6rem;
+}
+.section-right-content{
+    flex:1;
+    height:300px;
+    background-size:cover;
+    position:relative;
+    z-index:1;
+}
 
 // Mixins 
 

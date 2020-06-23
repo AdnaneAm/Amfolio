@@ -25,8 +25,8 @@ export default {};
       display: inline-block;
       a {
         color: #5b5d61 !important;
-        text-transform:uppercase;
-        letter-spacing:.03rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03rem;
         font-weight: 500;
         text-decoration: none;
         display: inline-block;
